@@ -17,4 +17,5 @@ for i in reversed(range(0, len(nums)-1)):
            for j in reversed(range(i, len(nums)-1)):
                nums[j+1]=nums[j]
 
+print(nums)
 
